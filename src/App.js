@@ -7,12 +7,12 @@ import LeafletGeocoder from "./LeafletGeocoder";
 import LeafletRoutingMachine from "./LeafletRoutingMachine";
 
 function App() {
-  const position = [36.8065, 10.1815];
+  const position = [19.24033, 73.130539];
   return (
     <div className="App">
       <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {/*  <LeafletGeocoder /> */}
